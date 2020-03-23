@@ -1,0 +1,15 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  padding: 2em 1em;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.noShow {
+  display: none;
+}
