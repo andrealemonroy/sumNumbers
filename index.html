@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <title>Numbers Sum Game</title>
+    </head>
+    <header>
+            Numbers Sum Game
+    </header>
+    <body>
+        <p>I'm gonna choose a number, you could add many numbers (separated by a comma, example: 12,-3,5,4).
+        <br> if whichever two numbers sum more than mine, you win and I'll return the numbers that did it
+        <br> Let's do it </p>
+        <label>Your numbers</label><br><input id="numbers"></input><button onClick="getAnswer()">Let's see</button>
+        <p id="did" class="noShow">Awesome!!! You did it! The numbers were <span id="winNumbers"></span></span></p><br>
+        <p id="didnt" class="noShow">Ohhh... try again, c'mon you can do it</p>
+    </body>
+    <script src="./main.js"></script>
+</html>
